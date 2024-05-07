@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: deepakdocker25/appnodejs
+  repository: deepakdocker25/docker-client-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v2"
+  tag: "v1.0.0"
 
 imagePullSecrets: []
 nameOverride: ""
